@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng2-coding-dojo';
+
+  newMethod(text) {
+    let text1 = text;
+  }
 }
